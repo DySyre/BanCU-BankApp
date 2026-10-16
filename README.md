@@ -4,7 +4,15 @@ Java-Springboot Console Base Banking app
 cd C:\Users\Dysyre\IdeaProjects\BanCU
 
 <!-- Enable console base -->
-mvn spring-boot:run "-Dspring-boot.run.arguments=--server.port=8081 --bancu.console.enabled=true"
+
+mvn spring-boot:run "-Dspring-boot.run.arguments=--server.port=8080 --bancu.console.enabled=true"
+
+Requirements: 
+
+Maven 3.10
+IntelliJ
+Xampp
+Springboot 3.5.16
 
 RESTful Endpoints
 
